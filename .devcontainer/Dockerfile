@@ -27,7 +27,8 @@ ENV SHELL /bin/bash
 # Add ROS setup to bashrc
 RUN echo "source /opt/ros/humble/setup.bash" >> /home/$USERNAME/.bashrc \
     && echo "source /usr/share/colcon_cd/function/colcon_cd.sh" >> /home/$USERNAME/.bashrc \
-    && echo "export _colcon_cd_root=/opt/ros/humble/" >> /home/$USERNAME/.bashrc
+    && echo "export _colcon_cd_root=/opt/ros/humble/" >> /home/$USERNAME/.bashrc \
+    && echo "source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash" >> /home/$USERNAME/.bashrc
 
 # [Optional] Set the default user. Omit if you want to keep the default as root.
 USER $USERNAME
