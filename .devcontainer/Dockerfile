@@ -17,7 +17,8 @@ RUN groupadd --gid $USER_GID $USERNAME \
     && chmod 0440 /etc/sudoers.d/$USERNAME
 RUN apt-get update && apt-get upgrade -y
 RUN apt-get install -y python3-pip \
-    python3-colcon-common-extensions
+    python3-colcon-common-extensions \
+    wget
 ENV SHELL /bin/bash
 
 # ********************************************************
