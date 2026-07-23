@@ -40,5 +40,5 @@
        "source=/tmp/.X11-unix,target=/tmp/.X11-unix,type=bind,consistency=cached",
        "source=/dev/dri,target=/dev/dri,type=bind,consistency=cached"
     ],
-    "postCreateCommand": "rosdep update && rosdep install --from-paths ros2_ws/src --ignore-src -y"
+    "postCreateCommand": "rosdep update && rosdep install --from-paths src --ignore-src -y"
 }

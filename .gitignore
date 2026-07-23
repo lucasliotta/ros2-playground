@@ -2,9 +2,9 @@ Ignore VS Code settings folder
 .vscode/
 
 # ROS 2 Build artifacts
-ros2_ws/build/
-ros2_ws/install/
-ros2_ws/log/
+build/
+install/
+log/
 
 # ROS 2 Tutorial
 ros2_ws/src/ros_tutorials/
