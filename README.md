@@ -6,6 +6,8 @@ I might also implement some things here before my actual project (other parts of
 
 Thanks to the Open Robotics team and all of the great documentation that people created!
 
+>**Note:** this is a personal learning project. If you spot any bad practices or errors, feel free to give feedback! This is also my first time using git.
+
 ## Credits
 Built with [ROS 2 Humble Hawksbill](https://docs.ros.org/en/humble/index.html)  
 [VS Code Dev Container Setup](https://code.visualstudio.com/docs/devcontainers/create-dev-container)  
